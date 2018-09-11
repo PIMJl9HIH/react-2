@@ -1,0 +1,25 @@
+Hi Roman,
+Please, find the test task below.
+
+Project description
+Your app gets a json as in sdks.json (attached), and populate it into a view like the following mockup. You don't need to implement http fetching, just develop around sdks.json as it is.
+
+1. The view has 2 separate panels: filter panel on the left and filtered results on the right. Each panel is scrollable.
+2. There're 3 kinds of filters on the left panel: 
+(a) search filter, when chosen, only results with title containing search terms will be shown. Results are updated on every key stroke.
+(b) "all", when chosen, all results are shown
+(c) tags, aggregated from sdks.json and sorted alphabetically, when chosen, only sdks with that tag are shown in results
+3. Filters are exclusive, select one will deselect the others
+4. Each result item comes with a title and a group of tags. They are displayed in the right panel in alphabetic order. 
+
+Requirements 
+1. Basic documentation 
+2. Use React 16.4 
+3. Use a CSS preprocessing language 
+4. Big plus is testing with Jest and Enzyme 
+5. It must be written in ES6 
+6. It must be a npm project, (webpack) 
+
+Waiting for your you test done
+
+Good luck!
